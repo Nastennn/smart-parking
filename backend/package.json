@@ -1,0 +1,20 @@
+{
+  "name": "Smart parking",
+  "version": "1.0.0",
+  "description": "Server for smart parking system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.0.1"
+  },
+  "dependencies": {
+    "mysql2": "^2.3.3",
+    "nedb": "^1.8.0",
+    "sqs-consumer": "^5.6.0"
+  }
+}
